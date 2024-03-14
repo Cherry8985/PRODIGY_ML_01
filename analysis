@@ -1,0 +1,34 @@
+
+Sure, here's a description of the provided code files:
+
+File 1: Data.ipynb
+
+This Jupyter Notebook file focuses on data preprocessing and analysis for the 'Houseprice' dataset. The steps performed in this notebook include:
+
+1.Importing the 'Houseprice' dataset.
+2.Dropping irrelevant columns from the dataset.
+3.Checking for zero values in the dataset and converting them to NaN.
+4.Imputing the zero values based on the distribution of the column.
+5.Rounding the decimal points in the dataset.
+6.Converting the "sqft_basement" and "yr_renovated" columns into binary columns and renaming them.
+7.Conducting statistical analysis on the dataset columns.
+8.Addressing outliers in the columns based on the "Winsorization" technique.
+9.Addressing skewness using the "Box-Cox" transformation.
+10.Saving the modified data into a file named "After_Modifications.csv".
+
+
+File 2: LRModel.ipynb
+
+This Jupyter Notebook file is focused on building and evaluating a linear regression model using the modified dataset prepared in 'Data.ipynb'. The steps performed in this notebook include:
+
+1.Importing the modified data from 'After_Modifications.csv'.
+2.Splitting the data into training and testing sets for model evaluation.
+3.Building a linear regression model and evaluating its performance.
+4.Using Recursive Feature Elimination (RFE) to select the top 5 features and building a new linear regression model with these features.
+5.Attempting Lasso regression and cross-validation techniques to increase the model's accuracy.
+6.These notebooks provide a comprehensive pipeline for preparing the dataset, building a linear regression model, and evaluating its performance using various techniques. They serve as a guide for data preprocessing, model building, and evaluation tasks in machine learning projects.
+
+
+
+
+
